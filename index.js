@@ -3,27 +3,9 @@ import express from "express";
 const app = express();
 app.use(express.json());
 
-app.get("/helth", (req, res) => {
+app.get("/health", (req, res) => {
     res.send("Kashi");
 });
-app.listen("6000", () => {
-    console.log("listening 6000");
+app.listen("8000", () => {
+    console.log("listening 8000");
 });
-///
-/////
-////
-///
-///
-////
-///
-///
-//
-//
-//
-///
-/////
-////
-//////
-////
-//
-////

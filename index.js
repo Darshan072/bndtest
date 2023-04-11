@@ -6,7 +6,7 @@ app.use(express.json());
 
 
 app.get("/health", (req, res) => {
-    res.send("DARSHAN Ghetiya FFF ");
+    res.send("DARSHAN Ghetiya");
 });
 app.listen("6000", () => {
     console.log("listening 6000");
